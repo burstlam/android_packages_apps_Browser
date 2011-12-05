@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2010 The Android Open Source Project
+ * Copyright (c) 2011, Code Aurora Forum. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -149,6 +150,8 @@ public interface UI {
     void setUseQuickControls(boolean enabled);
 
     void setUseQuickControlsExt(boolean enabled);
+
+    void setUseSlideTransitions(boolean enabled);
 
     public boolean shouldCaptureThumbnails();
 

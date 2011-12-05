@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2011 The Android Open Source Project
+ * Copyright (c) 2011, Code Aurora Forum. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -362,6 +363,9 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         } else if (PREF_ENABLE_QUICK_CONTROLS_EXT.equals(key)) {
             if (mController.getUi() != null) {
                 mController.getUi().setUseQuickControlsExt(sharedPreferences.getBoolean(key, false));
+        } else if (PREF_ENABLE_SLIDE_TAB_TRANSITIONS.equals(key)) {
+            if (mController.getUi() != null) {
+                mController.getUi().setUseSlideTransitions(sharedPreferences.getBoolean(key, true));
             }
         }
     }
@@ -792,6 +796,10 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         return mPrefs.getBoolean(PREF_FULLSCREEN, false);
     }
 
+    public boolean useSlideTabTransitions() {
+        return mPrefs.getBoolean(PREF_ENABLE_SLIDE_TAB_TRANSITIONS, true);
+    }
+
     public boolean useInvertedRendering() {
         return mPrefs.getBoolean(PREF_INVERTED, false);
     }
@@ -851,5 +859,4 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
     public String getPreloadEnabled() {
         return mPrefs.getString(PREF_DATA_PRELOAD, getDefaultPreloadSetting());
     }
-
 }

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2011 The Android Open Source Project
+ * Copyright (c) 2011, Code Aurora Forum. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -83,6 +84,7 @@ public interface PreferenceKeys {
     static final String PREF_ENABLE_QUICK_CONTROLS = "enable_quick_controls";
     static final String PREF_ENABLE_QUICK_CONTROLS_EXT = "enable_quick_controls_ext";
     static final String PREF_FULLSCREEN = "fullscreen";
+    static final String PREF_ENABLE_SLIDE_TAB_TRANSITIONS = "enable_slide_tab_transitions";
 
     // ----------------------
     // Keys for privacy_security_preferences.xml
