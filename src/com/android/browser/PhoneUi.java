@@ -427,6 +427,14 @@ public class PhoneUi extends BaseUi implements RealViewSwitcher.OnScreenSwitchLi
         if (incognito != null && !mUseQuickControls) {
             incognito.setVisible(false);
         }
+        MenuItem closeOthers = menu.findItem(R.id.close_other_tabs_id);
+        if (closeOthers != null) {
+            boolean isLastTab = true;
+            if (tab != null) {
+                isLastTab = (mTabControl.getTabCount() <= 1);
+            }
+            closeOthers.setEnabled(!isLastTab);
+        }
         if (showingNavScreen()) {
             menu.setGroupVisible(R.id.LIVE_MENU, false);
             menu.setGroupVisible(R.id.SNAPSHOT_MENU, false);
