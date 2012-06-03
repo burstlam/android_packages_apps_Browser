@@ -385,4 +385,31 @@
     <string name="accessibility_state_incognito" msgid="5786038488425202355">"無痕式頁面"</string>
     <string name="accessibility_state_frozen" msgid="8041539250447035570">"儲存的頁面"</string>
     <string name="accessibility_transition_navscreen" msgid="2734915619351519547">"分頁管理"</string>
+
+    <!-- MOD-->
+    <string name="pref_content_uastring">用戶代理</string>
+    <string name="pref_content_uastring_summary">指定發出頁面請求時使用的用戶代理</string>
+
+    <!-- Title for lab quick controls size override feature [CHAR LIMIT=40] -->
+    <string name="pref_lab_quick_controls_ext">擴充快捷鍵</string>
+    <!-- Summary for lab quick controls feature [CHAR LIMIT=120] -->
+    <string name="pref_lab_quick_controls_ext_summary">於手機上使用平板模式的快捷鍵,例如：向前／向後</string>
+
+    <!-- Title for tab settings preference -->
+    <string name="tab_settings_title">分頁</string>
+    <!-- Dialog title -->
+    <string name="pref_max_open_tabs">最大分頁數目</string>
+    <!-- Summary for Maximum open tabs -->
+    <string name="pref_max_open_tabs_summary">設定瀏覽器能打開分頁的最大數目</string>
+    <!-- Title for Restore tabs -->
+    <string name="pref_restore_tabs">保存分頁內容</string>
+    <!-- Summary for Restore tabs -->
+    <string name="pref_restore_tabs_summary">不管重啟或結束瀏覽器，重新打開程序後自動回復最後瀏覽頁面</string>
+    <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
+    <string name="close_other_tabs">關閉其他分頁</string>
+
+    <!-- Title for the slide tab transition feature [CHAR LIMIT=40] -->
+    <string name="pref_lab_slide_tab_transitions">滑動轉換分頁</string>
+    <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
+    <string name="pref_lab_slide_tab_transitions_summary">利用屏幕角落滑動另一端控制顯示上／下一分頁</string>
 </resources>

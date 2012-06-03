@@ -389,4 +389,29 @@
     <string name="accessibility_state_incognito" msgid="5786038488425202355">"隐身网页"</string>
     <string name="accessibility_state_frozen" msgid="8041539250447035570">"已保存的网页"</string>
     <string name="accessibility_transition_navscreen" msgid="2734915619351519547">"标签页管理"</string>
+
+    <!-- MOD-->
+
+    <!-- Title for lab quick controls size override feature [CHAR LIMIT=40] -->
+    <string name="pref_lab_quick_controls_ext">扩充快捷键</string>
+    <!-- Summary for lab quick controls feature [CHAR LIMIT=120] -->
+    <string name="pref_lab_quick_controls_ext_summary">于手机上使用平板模式的快捷键,例如：向前／向后</string>
+
+    <!-- Title for tab settings preference -->
+    <string name="tab_settings_title">分页</string>
+    <!-- Dialog title -->
+    <string name="pref_max_open_tabs">最大分页数目</string>
+    <!-- Summary for Maximum open tabs -->
+    <string name="pref_max_open_tabs_summary">设定浏览器能打开分页的最大数目</string>
+    <!-- Title for Restore tabs -->
+    <string name="pref_restore_tabs">保存分页内容</string>
+    <!-- Summary for Restore tabs -->
+    <string name="pref_restore_tabs_summary">不管重启或结束浏览器，重新打开程序后自动回复最后浏览页面</string>
+    <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
+    <string name="close_other_tabs">关闭其它分页</string>
+
+    <!-- Title for the slide tab transition feature [CHAR LIMIT=40] -->
+    <string name="pref_lab_slide_tab_transitions">滑动转换分页</string>
+    <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
+    <string name="pref_lab_slide_tab_transitions_summary">利用屏幕角落滑动另一端控制显示上／下一分页</string>
 </resources>
