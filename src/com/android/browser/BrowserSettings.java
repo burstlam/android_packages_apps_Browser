@@ -364,6 +364,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         } else if (PREF_ENABLE_QUICK_CONTROLS_EXT.equals(key)) {
             if (mController.getUi() != null) {
                 mController.getUi().setUseQuickControlsExt(sharedPreferences.getBoolean(key, false));
+            }
         } else if (PREF_ENABLE_SLIDE_TAB_TRANSITIONS.equals(key)) {
             if (mController.getUi() != null) {
                 mController.getUi().setUseSlideTransitions(sharedPreferences.getBoolean(key, true));
